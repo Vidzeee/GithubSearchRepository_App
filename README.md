@@ -102,11 +102,6 @@ cd github-repo-search-app
 - **`viewmodel/`**: Contains ViewModel classes that manage the UI state and communicate with the Repository.
 - **`network/`**: Contains Retrofit interface for network calls to GitHub API.
 
-## Example Screenshots
-![Home Screen](screenshots/home_screen.png)
-![Repo Details Screen](screenshots/repo_details_screen.png)
-![Contributor Screen](screenshots/contributor_screen.png)
-
 ## Known Issues
 - Pagination might load slightly slower on poor network connections.
 - Offline data is currently limited to the first 15 repositories.
@@ -116,10 +111,4 @@ cd github-repo-search-app
 - Implement a more complex offline data caching mechanism to store more than just the first 15 repositories.
 - Enhance UI/UX with animations or more modern designs.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
-
-This **README** provides a comprehensive overview of the app, explaining its features, architecture, setup, and usage. It covers the main components, including the search, repository details, contributors, and offline storage functionalities.
->>>>>>> ddfc0d0 (Create README.md)
